@@ -1,0 +1,37 @@
+
+---
+
+# 🚫 .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Assets (generated files)
+assets/*.mp4
+assets/*.mp3
+assets/*.wav
+
+# Config (API keys)
+config.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
